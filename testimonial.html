@@ -1,0 +1,110 @@
+!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>RR photography</title>
+  <link rel="stylesheet" href="/Estilos/Header.css">
+  <link rel="stylesheet" href="/Estilos/Main.css">
+  <link rel="stylesheet" href="/Estilos/Banner.css">
+  <link rel="stylesheet" href="/Estilos/Form.css">
+  <link rel="stylesheet" href="/Estilos/Testimonials.css">
+  <link rel="stylesheet" href="/Estilos/Link-testimonial.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--header begins-->
+<header>
+    <div id="header" class="header">
+        <div class="header-title"><h1>Rosangela Richa</h1><span>photographer</span></div>
+        <button id="open-drawer-button">
+            <img src="/Images/cardapio.png">
+          </button>
+        </div>
+    </div>
+</header>
+
+<!--main begins-->
+
+    <div id="response-container">
+    <button id="load-data">Carregar dados</button>
+    <div class="testimonials">
+    </div> 
+  </div>
+  
+<!--main ends-->
+
+<!--drawer begins-->
+
+<aside id="drawer" class="drawer">
+    <div class="drawer-open">
+       <div class="drawer-content">
+        <a href="/index.html" class="link-home">
+          <img src="/Images/home.png">
+          <p>Home</p>
+          </a>
+       <div class="drawer-content">
+        <img src="/Images/gallery.png">
+        <p>Gallery</p>
+    </div>
+       <div class="drawer-content">
+        <img src="/Images/calculator.png">
+        <p>Budget</p>
+    </div>
+       <div class="drawer-content">
+        <img src="/Images/email.png">
+        <p>Contact us!</p>
+    </div>
+       <img class="bio-img" src="/Images/RRbio.jpg">
+    </div>
+</aside>
+    
+
+   <!--form begins-->
+   <form>
+    <div id="entrar-contato">
+        <h1>Contact us</h1>
+      </div>
+      <form action="https://getform.io/f/3228a8da-9a2e-4c79-a4df-89b3505ae699" method="post">
+        <div id="input-container">
+          <div class="input-nome">
+            <div>
+              <label for="text">Name</label>
+            </div>
+            <input type="text" name="Nome" required minlength="3" maxlength="30">
+          </div>
+          <div class="input-contato">
+            <div>
+              <label for="email">Email</label>
+            </div>
+            <input type="email" name="E-mail" required minlength="3" maxlength="30">
+            <div>
+              <label for="number">Phone number</label>
+            </div>
+            <input type="text" name="Telefone">
+          </div>
+          <textarea>Write your message here</textarea>
+          <input type="submit" class="submit">
+    
+    
+        </div>
+</form>
+
+    <!--form ends-->
+
+    <!--photo begins-->
+<div id="rrPhoto" class="bioPhoto">
+    
+</div>
+
+
+<script src="/Script/Header.js"></script>
+<script src="/Script/Main.js"></script>
+<script src="/Script/Banner.js"></script>
+<script src="/Script/Testimonials.js"></script>
+</body>
+</html>
